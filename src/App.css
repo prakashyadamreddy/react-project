@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+.react-img {
+  width: 7rem;
+  height: 7rem;
+}
+.react-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F6F4F0;
+}
+.react-headertext-container p,
+.react-headertext-container h1{
+  margin: 0;
+}
+
+.todo-container {
+  margin: 5rem auto;
+  width: 30%;
+  height: auto;
+  max-width: 30rem;
+  padding: 2rem;
+  background-color: #F6F4F0;
+}
+.todo-submit-btn {
+  background: black;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  border: 0;
+}
+
+.todotask-tab img {
+  height: 1rem;
+  padding: 0 2px;
+  width: 1rem;
+}
+section.todotask-tab {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 5px;
+}
