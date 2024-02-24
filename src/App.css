@@ -66,6 +66,7 @@
   border-radius: 20px;
   color: white;
   border: 0;
+  width: 25%;
 }
 
 .todotask-tab img {
@@ -82,16 +83,23 @@ section.todotask-tab {
 }
 
 .todo-input-text {
-  width: 100%;
+  width: 70%;
 }
 .todotask-tab  p{
   width: 100%;
   padding: 0 1rem;
+  margin:  10px 0;
 }
+.todotask-tab .completed {
+  text-decoration: line-through;
+}
+
 .todotask-tab img {
   padding: 0 5px;
 }
 .todo-form {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  margin: 1rem 0;
 }

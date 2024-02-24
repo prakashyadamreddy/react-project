@@ -1,13 +1,13 @@
 //import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header.jsx';
-import Todo from './components/Todo.jsx';
+import TodoMain from './components/TodoMain.jsx';
 
 function App() {
   return (
     <>
       <Header/>
-      <Todo />
+      <TodoMain />
     </>
 
   );
